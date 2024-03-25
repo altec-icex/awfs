@@ -5,6 +5,10 @@
   "version": "0.0.1",
   "publisher": "Altec",
   "license": "MIT",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/altec-icex/awfs"
+	},
   "engines": {
     "vscode": "^1.87.0"
   },
