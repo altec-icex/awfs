@@ -1,8 +1,8 @@
 {
   "name": "awfs",
-  "displayName": "awfs",
+  "displayName": "Altawin File System",
   "description": "AltawinFS - a file system provider for altAwin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "Altec",
   "license": "MIT",
   "repository": {
@@ -25,14 +25,6 @@
         "command": "awfs.workspaceInit",
         "title": "Setup Workspace",
 				"category": "altAwin FS"
-      }
-    ]
-  },
-  "menus": {
-    "commandPalette": [
-      {
-        "command": "awfs.workspaceInit",
-        "when": "workbenchState != workspace"
       }
     ]
   },

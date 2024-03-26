@@ -5,7 +5,6 @@ export function activate(context: vscode.ExtensionContext) {
 
 	const awfs = new AWFS();
 	context.subscriptions.push(vscode.workspace.registerFileSystemProvider('awfs', awfs, { isCaseSensitive: true }));
-	let initialized = false;	
 
 	let disposable = vscode.commands.registerCommand('awfs.workspaceInit', _ => {
 		awfs.info().then((name) => {
@@ -18,4 +17,6 @@ export function activate(context: vscode.ExtensionContext) {
 	context.subscriptions.push(disposable);	
 }
 
-export function deactivate() {}
+export function deactivate() {
+	
+}
