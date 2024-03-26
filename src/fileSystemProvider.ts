@@ -58,9 +58,26 @@ export class AWFS implements vscode.FileSystemProvider {
       }
     });
 
-    this._socket.connect('//./pipe/awfs', () => {
-      //this._socket.pause();
+    this._socket.on('error', (err: Error) => {
+      vscode.window.showErrorMessage(err.message);
     });
+
+    this._socket.connect('//./pipe/awfs', () => {
+      console.log('connected');
+    });
+  }
+
+  public reconnect(): Promise<void> {
+    if (this._socket.closed || this._socket.errored) {
+      return new Promise((resolve, reject) => {
+        this._socket.connect('//./pipe/awfs', () => {
+          console.log('connected');
+          resolve();
+        });
+      });
+    } else {
+      return Promise.resolve();
+    }
   }
 
   private _parseBuffer() {

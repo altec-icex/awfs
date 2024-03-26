@@ -23,7 +23,7 @@
     "commands": [
       {
         "command": "awfs.workspaceInit",
-        "title": "Setup Workspace",
+        "title": "Add Workspace",
 				"category": "altAwin FS"
       }
     ]

@@ -14,9 +14,13 @@ Open section "HTML-представления" in program.
 
 Select desired record for editing and press "AWFS" toolbar button.
 
-For setup workspace select 'F1 > altAwin FS: Setup Workspace'.
+For setup workspace select 'F1 > altAwin FS: Add Workspace'.
 
 ## Release Notes
+
+### 0.0.2
+
+Redesigned for single pipe socket.
 
 ### 0.0.1
 
