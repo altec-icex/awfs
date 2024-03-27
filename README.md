@@ -1,27 +1,24 @@
-# AWFS
+# Altawin File System
 
-This extension provide virtual file system for editing altAwin HTML-views.
+Это расширение для Visual Studio Code позволяет редактировать исходный код и ресурсы HTML-представлений, которые сохраняются с БД altAwin.
 
-## Features
+Исходный код будет представлен в файле "index.html", а ресурсы представления будут отдельными файлами в корневой папке.
 
-This extension intended for editing one HTML-view page source and resources stored in database.
+## Использование
 
-Main page source will looks as "index.html", resources as separated files in root folder.
+Если у Вас есть уже созданное HTML-представление, то пропустите следущие шаги:
 
-## Extension Settings
+1. Создайте HTML-представление с пустым исходным кодом.
+2. Перезапустите altAwin.
 
-Open section "HTML-представления" in program.
+Перейдите в созданное представление, в котором нажмите кнопку VSCode.
 
-Select desired record for editing and press "AWFS" toolbar button.
+Запустите VSCode и выберите 'F1 > altAwin FS: Add Workspace'.
 
-For setup workspace select 'F1 > altAwin FS: Add Workspace'.
+В файловый менеждер VSCode будет добавлено рабочее пространство AWFS, представляющее собой корневую папку.
 
-## Release Notes
+Для отсоединения рабочего пространства используйте 'F1 > Workspaces: Close Workspace'.
 
-### 0.0.2
+Редактировать можно только одно представление в один момент времени.
 
-Redesigned for single pipe socket.
-
-### 0.0.1
-
-Initial release of AWFS.
+Для редактирование другого представления рекомендуется сначала отсоединить рабочее пространство, нажать кнопку VSCode в необходимом представлении и добавить рабочее пространство ещё раз.
