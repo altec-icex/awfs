@@ -1,8 +1,8 @@
 {
   "name": "awfs",
-  "displayName": "Altawin File System",
-  "description": "AltawinFS - a file system provider for altAwin",
-  "version": "0.0.2",
+  "displayName": "altAwin HTML-view workspace",
+  "description": "Рабочее пространство для редактирования HTML-представлений",
+  "version": "0.0.3",
   "publisher": "Altec",
   "license": "MIT",
   "repository": {
@@ -24,7 +24,7 @@
       {
         "command": "awfs.workspaceInit",
         "title": "Add Workspace",
-				"category": "altAwin FS"
+				"category": "altAwin"
       }
     ]
   },

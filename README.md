@@ -1,4 +1,4 @@
-# Altawin File System
+# Altawin HTML-view workspace
 
 Это расширение для Visual Studio Code позволяет редактировать исходный код и ресурсы HTML-представлений, которые сохраняются с БД altAwin.
 
@@ -13,7 +13,7 @@
 
 Перейдите в созданное представление, в котором нажмите кнопку VSCode.
 
-Запустите VSCode и выберите 'F1 > altAwin FS: Add Workspace'.
+Запустите VSCode и выберите 'F1 > altAwin: Add Workspace'.
 
 В файловый менеждер VSCode будет добавлено рабочее пространство AWFS, представляющее собой корневую папку.
 
