@@ -2,7 +2,7 @@
   "name": "awfs",
   "displayName": "altAwin HTML-view workspace",
   "description": "Рабочее пространство для редактирования HTML-представлений",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "Altec",
   "license": "MIT",
   "repository": {
